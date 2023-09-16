@@ -1,0 +1,35 @@
+.form_template {
+  display: inherit;
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.header_form_div {
+  background-color: #2d3250;
+  display: flex;
+  gap: 35px;
+  padding: 5px;
+  padding-inline: 30px;
+  flex-wrap: wrap;
+}
+
+.header_form_sign {
+  background-color: #2d3250;
+  color: #9494b0;
+  border-bottom: 3px solid #f2cf77;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+.header_form_sign:hover{
+  color: #f2f2f2;
+}
+
+.active {
+  background-color: #2d3250;
+  color: #f2f2f2;
+  border-bottom: 3px solid #f2cf77;
+  text-decoration: none;
+  padding-bottom: 5px;
+}

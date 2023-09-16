@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-areas: "section-form section-img";
+  align-items: center;
+}
+
+.section-img {
+  grid-area: section-img;
+  width: 100%;
+  height: 100vh;
+  background: url(./assets/valley-4646114_1280.jpg);
+  background-repeat: round;
+}

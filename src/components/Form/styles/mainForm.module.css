@@ -1,0 +1,70 @@
+.main_form {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.main_form h1, label {
+  color: aliceblue;
+}
+
+.main_form input {
+  background-color: #676f9d;
+  padding: 5% 3%;
+  border-radius: 6px;
+  border-style: none;
+  color: aliceblue;
+}
+
+.main_form input::placeholder {
+  color: #a9aec9;
+}
+
+.main_form input:focus {
+  background-color: #7e88bf88;
+  outline: none;
+  border-left: solid #f2cf77;
+  color: aliceblue;
+}
+
+input:-webkit-autofill {
+    filter:none; /* needed for firefox! */
+    box-shadow: 0 0 0 100px #3f4a8688 inset;
+}
+
+.div_container_checkbox {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.main_form > *:not(h1):not(label) {
+  margin-bottom: 1.3em;
+}
+
+.main_form a {
+  color: #9494b0;
+}
+
+.main_form a:focus {
+  color: #f2cf77;
+}
+
+.main_form button {
+  width: 50%;
+  padding: 8px;
+  border-radius: 6px;
+  background-color: #f2cf77;
+  font-weight: bold;
+  color: #2c2c2c;
+  border-style: none;
+}
+
+.main_form button:hover {
+  background-color: #f2cf77; 
+  box-shadow: 0 0 20px #ffeec37d, 0 0 10px #ffeec37d, 0 0 20px #ffeec37d;
+}
+
+.main_form button:active {
+  background-color: #f2cf77;
+  box-shadow: 0 0 20px #ffeec37d, 0 0 10px #ffeec37d, 0 0 20px #ffeec37d;
+}
